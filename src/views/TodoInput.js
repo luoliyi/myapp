@@ -16,7 +16,7 @@ export default class TodoInput extends Component {
     }
 
     sendToPar() {
-        if (this.state.val !== '') {
+        if (this.state.val != '') {
             this.props.getChildVal(this.state.val)
         }
     }
